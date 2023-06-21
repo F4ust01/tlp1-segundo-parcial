@@ -18,6 +18,11 @@ const reserva = sequelize.define('reserva', {
         allowNull: false,
     },
 
+    estado: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: true
+    },
+
     createdAt: {
         type: DataTypes.DATE,
         allowNull: false,
