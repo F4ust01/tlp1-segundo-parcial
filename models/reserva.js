@@ -13,6 +13,11 @@ const reserva = sequelize.define('reserva', {
         type: DataTypes.INTEGER,
         allowNull: false
     },
+    fechaReserva: {
+        type: DataTypes.DATE,
+        allowNull: false,
+    },
+
     createdAt: {
         type: DataTypes.DATE,
         allowNull: false,
